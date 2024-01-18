@@ -1,0 +1,193 @@
+
+.admin-container {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.side-box {
+    width: 20%;
+    background-color: rgba(10, 32, 144, 0.9);
+}
+
+.big,
+.small {
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+.item-li1 {
+    padding: 10px 0;
+}
+
+.item-li1:hover {
+    color: white;
+    background-color: rgba(10, 32, 144, 0.5);
+}
+
+.text-li1 {
+    color: white;
+    margin: 0 30px;
+    transition: all .6s linear;
+}
+
+.text-li1:hover,
+.table-text:hover {
+    color: white;
+}
+
+.table-text {
+    color: white;
+}
+
+.small.active {
+    display: none;
+}
+
+.item-li2 {
+    padding: 10px 0;
+}
+
+.item-li2:hover {
+    background-color: rgba(10, 32, 144, 0.5);
+}
+
+.text-li2 {
+    color: white;
+    margin: 0 40px;
+}
+
+.d-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+.d-revenue, .d-quantity {
+    padding-top: 100px;
+    text-align: center;
+}
+  
+.dash-img {
+    max-width: 40%;
+    height: auto;
+}
+
+.text-li2:hover  {
+    color: white;
+}
+
+.admin-logo {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.admin-logo a {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.content-box {
+    width: 80%;
+    margin: 0 20px;
+    min-height: 576px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.table-name {
+    padding: 20px 0;
+    margin: 0
+}
+
+.table-img {
+    width: 50px;
+}
+
+.create-btn {
+    color: white;
+    padding: 6px 24px;
+    background-color: #47b2e4;
+    display: block;
+    width: max-content;
+    margin-bottom: 16px;
+    border-radius: 50px;
+}
+
+.create-btn:hover {
+    color: white;
+    background-color: #209dd8;
+}
+
+.for-btn {
+    margin: 18px 0;
+}
+
+.form-group {
+    margin-top: 18px;
+}
+
+.mess-pack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: white;
+  }
+  
+.mess-confirm {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 30px 70px;
+    color: #17d844;
+}
+
+.cancel-btn {
+    display: block;
+    padding: 8px 0;
+    border: 1px solid #47b2e4;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.cancel-btn:hover {
+    background-color: #47b2e4;
+    color: white;
+}
+
+.delete-btn {
+    width: 100%;
+    border: none;
+    display: block;
+    padding: 8px 0;
+    color: white;
+    background-color: #47b2e4;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.delete-btn:hover {
+    background-color: #209dd8;
+    color: white;
+}
+
+.h-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.h-text {
+    margin: 0;
+    font-size: 90px;
+    color: rgba(10, 32, 144, 0.9);
+}
